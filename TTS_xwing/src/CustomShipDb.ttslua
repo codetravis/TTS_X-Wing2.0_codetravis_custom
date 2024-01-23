@@ -1,0 +1,4 @@
+-- Attempt on Unified Data Base, based on XWS (dropped after w1, too much hassle) and FFG conversion table
+customShipDB={}
+customShipDB[0]={['name']='',['Hull']=0,['Shield']=0,['size']='small',['agi']=1,['Energy']=0,['XWS']='',['Fac']={[0]=true},['arcs']={fixed = { range=3, type = {'front'}}}}
+

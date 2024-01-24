@@ -11,18 +11,7 @@ customShipDB['tyewing']={
     XWS = 'tyewing',
     newSpawner = true,
     textures = {
-      gold = 'https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/ships-v2/small/btla4ywing/Textures/gold.png',
-      grey = 'https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/ships-v2/small/btla4ywing/Textures/grey.png',
-      horton = 'https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/ships-v2/small/btla4ywing/Textures/hortonsalm.png',
-      amaxine = 'https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/ships-v2/small/btla4ywing/Textures/amaxine.png',
-      crymorah = 'https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/ships-v2/small/btla4ywing/Textures/crymorah.png',
-      drea = 'https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/ships-v2/small/btla4ywing/Textures/drearenthal.png',
-      norra = 'https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/ships-v2/small/btla4ywing/Textures/norrawexley.png',
       hiredgun = 'https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/ships-v2/small/btla4ywing/Textures/hiredgun.png',
-      jinata = 'https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/ships-v2/small/btla4ywing/Textures/JinataSecurityOfficer.png',
-      kavil = 'https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/ships-v2/small/btla4ywing/Textures/kavil.png',
-      padric = 'https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/ships-v2/small/btla4ywing/Textures/padric.png',
-      blank = 'https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/ships-v2/small/btla4ywing/Textures/blank.png',
     },
     Fac = {[3]=true},
     arcs = {fixed = { range=3, type = {'front'}}},
@@ -33,19 +22,18 @@ customShipDB['tyewing']={
 
 customShipDB['tietrifighter']={
     name = 'TIE Tri Fighter',
-    Hull = 3,
+    Hull = 2,
     Shield = 2,
     size = 'small',
     agi = 3,
     XWS = 'tietrifighter',
     newSpawner = true,
     textures = {
-      blue = 'https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/ships-v2/small/tieadvancedx1/textures/1/tieadvancedx1blue.jpg',
-      grey = 'https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/ships-v2/small/tieadvancedx1/textures/1/tieadvancedx1grey.jpg',
+      grey = 'https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/ships-v2/small/tiephphantom/textures/tiephphantomgrey.jpg',
     },
     Fac = {[3]=true},
     arcs = {fixed = { range=3, type = {'front'}}},
-    mesh = 'https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/ships-v2/small/tieadvancedx1/tieadvancedx1v2.obj',
+    mesh = 'https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/ships-v2/small/tiephphantom/Tie%20Phantom.obj',
     moveSet = {'bbl1','ws1','bbr1','wtl2','bbl2','bs2','bbr2','wtr2','rtl3t','wtl3','wbl3','bs3','wbr3','wtr3','rtr3t','ws4','rk4','ws5'},
     keywords = {'TIE', 'Ugly'}
 }

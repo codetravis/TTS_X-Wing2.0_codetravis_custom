@@ -8,7 +8,7 @@ customShipDB['tyewing']={
     Shield = 0,
     size = 'small',
     agi = 1,
-    XWS = 'btla4ywing',
+    XWS = 'tyewing',
     newSpawner = true,
     textures = {
       gold = 'https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/ships-v2/small/btla4ywing/Textures/gold.png',
@@ -24,28 +24,30 @@ customShipDB['tyewing']={
       padric = 'https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/ships-v2/small/btla4ywing/Textures/padric.png',
       blank = 'https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/ships-v2/small/btla4ywing/Textures/blank.png',
     },
-    Fac = {[1]=true,[3]=true},
+    Fac = {[3]=true},
     arcs = {fixed = { range=3, type = {'front'}}},
     mesh = 'https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/ships-v2/small/btla4ywing/btla4_ywing.obj',
     moveSet = {'bbl1', 'bs1', 'bbr1','wtl2','wbl2','bs2','wbr2','wtr2','rtl3','wbl3','ws3','wbr3','rtr3','rs4','rk4'},
     keywords = {'TYE-Wing', 'Ugly'}
 }
 
-masterShipDB['tieadvancedx1']={
-    name = 'TIE Advanced x1',
+customShipDB['tietrifighter']={
+    name = 'TIE Tri Fighter',
     Hull = 3,
     Shield = 2,
     size = 'small',
     agi = 3,
-    XWS = 'tieadvancedx1',
+    XWS = 'tietrifighter',
     newSpawner = true,
     textures = {
       blue = 'https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/ships-v2/small/tieadvancedx1/textures/1/tieadvancedx1blue.jpg',
       grey = 'https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/ships-v2/small/tieadvancedx1/textures/1/tieadvancedx1grey.jpg',
     },
-    Fac = {[2]=true},
+    Fac = {[3]=true},
     arcs = {fixed = { range=3, type = {'front'}}},
     mesh = 'https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/ships-v2/small/tieadvancedx1/tieadvancedx1v2.obj',
     moveSet = {'bbl1','ws1','bbr1','wtl2','bbl2','bs2','bbr2','wtr2','rtl3t','wtl3','wbl3','bs3','wbr3','wtr3','rtr3t','ws4','rk4','ws5'},
-    keywords = {'TIE'}
+    keywords = {'TIE', 'Ugly'}
 }
+
+return customShipDB

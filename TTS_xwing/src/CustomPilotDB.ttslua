@@ -1,0 +1,28 @@
+customPilotDB={}
+customPilotDB[0]={['name']='',['XWS']='',['Faction']= 0,['ship_type']=0,['cost']=0,['slot']={},['Shield']=0,['card']='',['cardB']='',['init']=0,['actSet']={}}
+
+customPilotDB[1]={
+  name = 'Pirate Recruit',
+  XWS = 'piraterecruit',
+  Faction = 3,
+  ship_type = 'tyewing',
+  cost = 10,
+  slot = {21, 14},
+  init = 1,
+  actSet = {'F','E', 'BR'}
+}
+
+customPilotDB[2]={
+  name = 'Invid Buccaneer',
+  XWS = 'invidbuccaneer',
+  Faction = 3,
+  ship_type = 'tiephantom',
+  cost = 20,
+  slot = {21, 14},
+  init = 2,
+  actSet = {'F','E', 'BR'},
+  texture = 'grey',
+}
+
+
+return customPilotDB
